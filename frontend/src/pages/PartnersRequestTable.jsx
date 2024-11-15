@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import {  Search} from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import Header from '../components/common/Header';
 
@@ -32,9 +32,7 @@ const PartnersRequestTable = () => {
   };
 
   const filteredPartners = partnersData.filter((partner) =>
-    partner.organizationName
-      ?.toLowerCase()
-      .includes(searchTerm.toLowerCase()),
+    partner.organizationName?.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
   const totalItems = filteredPartners.length;
@@ -188,6 +186,7 @@ const PartnersRequestTable = () => {
                 ))}
               </tbody>
             </table>
+            
           </div>
 
           {/* Pagination Controls */}
@@ -210,6 +209,10 @@ const PartnersRequestTable = () => {
               Next
             </button>
           </div>
+          
+          <a href='/partners-application' className="text-indigo-400 hover:text-indigo-300 mr-2">
+              Application Form
+            </a>
         </motion.div>
       </main>
     </div>
