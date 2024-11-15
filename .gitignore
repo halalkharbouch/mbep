@@ -3,8 +3,9 @@ old
 node_modules
 mongo-dump
 geojson
-data
-
+all_partners.json
+all_projects.json
+validation_zone.json
 # Logs
 logs
 *.log

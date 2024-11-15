@@ -1,0 +1,27 @@
+const lgaCoordinates = {
+  'Sokoto North': { name: 'Sokoto North', coordinates: [13.0059, 5.2476] },
+  'Sokoto South': { name: 'Sokoto South', coordinates: [12.9995, 5.2401] },
+  Bodinga: { name: 'Bodinga', coordinates: [12.8833, 5.1476] },
+  Tambuwal: { name: 'Tambuwal', coordinates: [12.4084, 4.6479] },
+  'Sabon Birni': { name: 'Sabon Birni', coordinates: [13.1254, 6.1303] },
+  Yabo: { name: 'Yabo', coordinates: [12.3211, 4.7469] },
+  Binji: { name: 'Binji', coordinates: [13.05, 4.9167] },
+  'Dange Shuni': { name: 'Dange Shuni', coordinates: [12.8532, 5.344] },
+  Gada: { name: 'Gada', coordinates: [13.75, 5.75] },
+  Goronyo: { name: 'Goronyo', coordinates: [13.5033, 5.6758] },
+  Gudu: { name: 'Gudu', coordinates: [13.1, 4.9] },
+  Gwadabawa: { name: 'Gwadabawa', coordinates: [13.358, 5.2437] },
+  Illela: { name: 'Illela', coordinates: [13.7333, 5.3] },
+  Isa: { name: 'Isa', coordinates: [13.2204, 6.0985] },
+  Kebbe: { name: 'Kebbe', coordinates: [12.1558, 4.6492] },
+  Kware: { name: 'Kware', coordinates: [13.2, 5.3167] },
+  Rabah: { name: 'Rabah', coordinates: [13.1167, 5.5178] },
+  Shagari: { name: 'Shagari', coordinates: [12.6167, 4.9167] },
+  Silame: { name: 'Silame', coordinates: [13.0667, 4.8333] },
+  Tangaza: { name: 'Tangaza', coordinates: [13.2558, 4.8781] },
+  Tureta: { name: 'Tureta', coordinates: [12.5597, 5.3427] },
+  Wamako: { name: 'Wamako', coordinates: [13.0619, 5.1103] },
+  Wurno: { name: 'Wurno', coordinates: [13.3, 5.4167] },
+};
+
+export default lgaCoordinates;
